@@ -1,0 +1,365 @@
+*{
+				margin:0;
+				padding:0;
+				}
+body{
+    	max-width:100%;
+	  	min-width:300px;
+	
+    }
+
+
+#firstnav{
+				
+				background-color:white;
+				height:90px;
+				padding-top:20px;
+				width:100%;
+				padding-right:20px;
+				float:right;
+				
+				}
+
+                 
+
+#posfix{
+				position:fixed;
+				background-color: white;
+				top:0;
+				left:0;
+				width:100%;
+				display:flex;
+}
+		/*media quarry*/
+				
+				
+
+
+ul{
+				margin: 0;
+				padding: 0;
+				text-decoration:none;
+				}
+	
+
+
+ ul li{
+				background:white;
+				width:120px;
+				border:1px  ;
+				text-align:center;
+				height:40px;
+				line-height:40px;
+				float:left;
+				font-size:14px;
+				position:relative;
+				list-style:none;
+				font-family:Georgia;
+				
+				}
+
+ul li a{
+				text-decoration:none;
+				display:block;
+				color:#3e3e3e;
+				font-size:18px;
+				}
+	ul li a:hover{
+								background-color:#ffc217;
+								font-size:20px;
+
+							}
+								
+ul li ul li{
+				display:none;
+				background-color:#ffc217;		
+				font-size:20px;
+				width:170px;
+				border-radius:2px;
+				}
+
+ul li ul li a{
+				color:white;
+				}
+
+ul li:hover ul li{
+				display:block;
+				}
+								
+
+
+
+
+label #btn, label #cancel{
+	color: black;
+	font-size: 28px;
+	line-height: 50px;
+	margin-right: 15px;
+	cursor: pointer;
+	display: none;
+}
+
+.check{
+	display: none;
+}
+
+
+/*media quarry starts here*/
+@media (max-width:960px){
+    ul li a {
+    	font-size: 15px;
+    }
+
+    button {
+    	font-size: 11px;
+    	height: 27px;
+    	width: 65px;
+    }
+      ul li a:hover{
+        	font-size: 15px
+        }
+}
+
+/*media quarry starts here*/
+@media (max-width:900px){
+    ul li a {
+    	font-size: 11px;
+    }
+
+    button {
+    	font-size: 11px;
+    	height: 27px;
+    	width: 65px;
+    }
+    ul li{
+    	width: 90px;
+    }
+        ul li a:hover{
+        	font-size: 15px
+        }
+}
+
+
+
+/*media quarry starts here*/
+@media (max-width:800px){
+    ul li a {
+    	font-size: 11px;
+    }
+
+    button {
+    	font-size: 11px;
+    	height: 27px;
+    	width: 65px;
+    }
+     ul li{
+    	width: 70px;
+    }
+  ul li a:hover{
+        	font-size: 15px
+        }
+
+}
+
+
+
+
+
+/*main media quarry starts here*/
+/*media quarry starts here*/
+@media (max-width:655px){
+    ul li a {
+    	font-size: 10px;
+    }
+
+    button {
+    	font-size: 11px;
+    	height: 27px;
+    	width: 65px;
+    }
+     ul li{
+    	width: 70px;
+    }
+  ul li a:hover{
+        	font-size: 15px
+        }
+}
+
+
+
+/*main media quarry starts here*/
+/*media quarry starts here*/
+@media (max-width:455px){
+    ul li a {
+    	font-size: 10px;
+    }
+
+    button {
+    	font-size: 11px;
+    	height: 27px;
+    	width: 65px;
+    }
+     ul li{
+    	width: 70px;
+    }
+  ul li a:hover{
+        	font-size: 15px
+        }
+        #samimg{
+        	width: 100px;
+        }
+}
+
+
+
+
+
+
+
+
+/*this is navigation bar css ends here*/
+/*this is navigation bar css ends here*/
+/*this is navigation bar css ends here*/
+/*this is navigation bar css ends here*/
+
+
+
+
+#logoimg{
+				border:1px solid;
+				width:100%;
+				height:730px;
+
+				background-image:url(images/gymimg.jpg)
+				}
+
+
+#inner{
+				border:4px solid #ffffff;
+				height:310px;
+				width:250px;
+				margin-left:72%;
+				margin-top:290px;
+				background-color:#ffffff;
+				border-radius:20px;
+				font-size:35px;
+				text-align:center;
+				}
+
+
+               /*media quarry*/
+               @media (max-width:800px; ){
+               	#logoimg{
+               		
+               	}
+               }
+			
+
+
+#inner span{
+				color:#ffd946;
+				}
+
+#inner button{
+				background-color:#ffc217;
+				border:2px solid #ffc217;
+				width:100px;
+				height:50px;
+				border-radius:15px;
+				font-size:15px;
+				color:#ffffff;
+				}				
+
+#inner p{
+				font-size:15px;
+				padding-top:18px;
+				color:#ffc217;
+				}				
+
+/*-end of this css code here-*/
+/*-end of this css code here-*/
+/*-end of this css code here-*/
+
+/*---don't forget to remove br tag ok..---*/
+
+
+#slider1{
+				
+				width:100%;
+				height:230px;
+			    text-align:center;
+				font-size:50px;
+				}
+
+#slider2{
+				
+				width:100%;
+				height:400px;
+			    text-align:center;
+				font-size:50px;
+				}
+				
+	#slider3{
+				
+				width:100%;
+				height:600px;
+					text-align:center;
+			
+				}		
+				
+/*-end of this css slider code here-*/
+/*-end of this css slider code here-*/
+/*-end of this css slider code here-*/
+
+/*---don't forget to remove br tag ok..---*/
+				
+	#video{
+				
+				width:100%;
+				height:551px;
+				text-align:center;
+				font-size:50px;
+		  }
+	
+	
+	/*-end of this css code here-*/
+/*-end of this css code here-*/
+/*-end of this css code here-*/
+
+
+
+
+/*
+	#fourspace{
+					border:1px solid;
+				width:100%;
+				height:800px;
+					text-align:center;
+				font-size:50px;
+					}
+*/
+				
+				
+				
+				
+				/*-end of this css code here-*/
+/*-end of this css code here-*/
+/*-end of this css code here-*/
+				
+
+
+             #footera{
+
+			   
+				width:100%;
+				height:280px;
+				text-align:center;
+				font-size:10px;
+					}			
+				
+
+	
+				
+				/*-end of this css code here-*/
+/*-end of this css code here-*/
+/*-end of this css code here-*/
